@@ -1,9 +1,13 @@
 import React from "react";
+import "@cloudscape-design/global-styles/index.css";
 import { createRoot } from "react-dom/client";
 import "@pages/popup/index.css";
 import Popup from "@pages/popup/Popup";
 import refreshOnUpdate from "virtual:reload-on-update-in-view";
 import { attachTwindStyle } from "@src/shared/style/twind";
+import awsExports from "../../../aws-exports";
+import { Amplify, Auth } from "aws-amplify";
+Amplify.configure(awsExports);
 
 refreshOnUpdate("pages/popup");
 

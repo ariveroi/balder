@@ -27,6 +27,7 @@ export default defineConfig({
       "@src": srcDir,
       "@assets": assetsDir,
       "@pages": pagesDir,
+      "./runtimeConfig": "./runtimeConfig.browser",
     },
   },
   plugins: [

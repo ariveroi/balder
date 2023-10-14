@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-balder-dev-175421-authRole",
+      "UnauthRoleArn": "arn:aws:iam::145667828524:role/amplify-balder-dev-175421-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::145667828524:role/amplify-balder-dev-175421-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-balder-dev-175421-deployment",
+      "UnauthRoleName": "amplify-balder-dev-175421-unauthRole",
+      "StackName": "amplify-balder-dev-175421",
+      "StackId": "arn:aws:cloudformation:us-east-1:145667828524:stack/amplify-balder-dev-175421/f2840660-6aa9-11ee-b4c9-0a30ef754fbf",
+      "AmplifyAppId": "d2t5n49p5ix8nt"
+    },
+    "categories": {
+      "function": {
+        "balderNewNarrative": {
+          "deploymentBucketName": "amplify-balder-dev-175421-deployment",
+          "s3Key": "amplify-builds/balderNewNarrative-6457662f78412f382f4c-build.zip"
+        }
+      },
+      "api": {
+        "balderApi": {}
+      }
+    }
+  }
+}
